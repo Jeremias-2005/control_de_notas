@@ -1,0 +1,7 @@
+\i C:/Users/MINEDUCYT/Documents/notas.sql
+
+CREATE DATABASE notas;
+
+CREATE USER notasadmin WITH PASSWORD 'incasnotas';
+
+GRANT All PRIVILEGES ON DATABASE notas TO notasadmin;
